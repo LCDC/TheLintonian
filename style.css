@@ -1,0 +1,89 @@
+/*
+ Theme Name:   The Lintonian
+ Template:     apostrophe-wpcom
+ Theme URI:    https://github.com/LCDC/TheLintonian
+ Version:      1.0.0
+ Author:       Derrick Tennant
+ Author URI:   https://emrikol.com/
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  thelintonian
+*/
+
+#masthead .site-title {
+	display: none;
+}
+
+#mc_embed_signup fieldset {
+	border: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+div#jp-relatedposts h3.jp-relatedposts-headline,div#jp-relatedposts h3.jp-relatedposts-headline {
+	display: block !important;
+	float: none !important;
+}
+.entry-content .sd-sharing-enabled {
+	display: none;
+}
+
+.sidebar-secondary .sd-title {
+	display: none !important;
+}
+
+a {
+	word-wrap: break-word;
+}
+
+.googlepublisherpluginad iframe {
+	margin: 0px;
+	padding: 0px;
+}
+
+ins.adsbygoogle iframe {
+	margin: 0px;
+	padding: 0px;
+}
+
+#pre-page {
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1140px;
+}
+/*--------------------------------------------------------------
+13.0 Media Queries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+13.1 Small screens, under 768px wide.
+Primarily mobile devices and super-small tablets.
+--------------------------------------------------------------*/
+@media (max-width: 767px) {
+	/* Page structure */
+	#pre-page {
+		min-width: 280px;
+		/*padding: 3.0303%;*/
+	}
+}
+
+/*--------------------------------------------------------------
+13.2 Slightly larger screens, between 768px and 1024px wide.
+Primarily tablets and teensy desktops.
+--------------------------------------------------------------*/
+@media (min-width: 768px) {
+	#pre-page {
+		/*padding: 3.0303%;*/
+	}
+}
+
+/*--------------------------------------------------------------
+13.2 Still larger screens, 1024px wide and up.
+Very large tablets in landscape mode and most desktops.
+--------------------------------------------------------------*/
+@media (min-width: 1024px) {
+}
